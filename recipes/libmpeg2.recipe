@@ -3,6 +3,7 @@
 class Recipe(recipe.Recipe):
     name = 'libmpeg2'
     version = '0.5.1'
+    commit = 'sdk-release-sdk-2012.5'
     licenses = [License.GPLv2Plus]
     autoreconf = True
 

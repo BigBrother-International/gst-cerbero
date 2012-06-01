@@ -4,6 +4,7 @@
 class Recipe(recipe.Recipe):
     name = 'orc'
     version = '0.4.16'
+    commit = 'sdk-release-sdk-2012.5'
     licenses = [License.BSD_like]
 
     files_libs = ['liborc-0.4', 'liborc-test-0.4']

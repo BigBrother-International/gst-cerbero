@@ -4,6 +4,7 @@
 class Recipe(recipe.Recipe):
     name = 'libgcrypt'
     version = '1.5.0'
+    commit = 'sdk-release-sdk-2012.5'
     # TODO: check license - some source files are LGPLv2+, others LGPLv2.1+
     #       and COPYING.LIB is GPLv2.1
     licenses = [License.LGPLv2_1Plus]

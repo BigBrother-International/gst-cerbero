@@ -4,4 +4,5 @@
 class Recipe(recipe.Recipe):
     name = 'iso-codes'
     version = '3.32'
+    commit = 'sdk-release-sdk-2012.5'
     licenses = [License.LGPLv2_1Plus]

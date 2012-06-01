@@ -4,6 +4,7 @@
 class Recipe(recipe.Recipe):
     name = 'gnutls'
     version = '3.0.14'
+    commit = 'sdk-release-sdk-2012.5'
     # main library is LGPLv3+ and binaries and libgnutls-openssl are
     # GPLv3+ and defined below
     licenses = [License.LGPLv3Plus]

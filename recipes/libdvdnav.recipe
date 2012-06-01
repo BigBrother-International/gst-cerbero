@@ -4,6 +4,7 @@
 class Recipe(recipe.Recipe):
     name = 'libdvdnav'
     version = '4.2.0'
+    commit = 'sdk-release-sdk-2012.5'
     licenses = [License.GPLv2Plus]
     config_sh = 'sh autogen.sh'
     deps = ['libdvdread']

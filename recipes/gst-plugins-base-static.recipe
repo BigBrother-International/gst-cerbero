@@ -10,6 +10,7 @@ from cerbero.build.build import system_libs
 class Recipe(recipe.Recipe):
     name = 'gst-plugins-base-static'
     version = '0.10.36'
+    commit = 'sdk-release-sdk-2012.5'
     licenses = [License.LGPLv2Plus]
     config_sh = 'sh ./autogen.sh --noconfigure && ./configure'
     configure_options = "--disable-introspection --disable-examples --disable-shared --enable-static --disable-gst_v4l --disable-gnome_vfs --with-package-origin='http://www.gstreamer.com' --with-package-name='GStreamer Base Plugins (GStreamer SDK)' "

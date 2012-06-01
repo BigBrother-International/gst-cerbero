@@ -3,6 +3,7 @@
 class Recipe(recipe.Recipe):
     name = 'gst-playback-test'
     version = '0.0.1'
+    commit = 'sdk-release-sdk-2012.5'
     licenses = [License.LGPLv2_1Plus]
     config_sh = 'sh autogen.sh'
     configure_options ='--program-prefix= '

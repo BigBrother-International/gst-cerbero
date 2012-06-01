@@ -4,6 +4,7 @@
 class Recipe(recipe.Recipe):
     name = 'pygobject'
     version = '2.28.6'
+    commit = 'sdk-release-sdk-2012.5'
     licenses = [License.LGPLv2_1Plus]
     configure_options = '--disable-introspection'
 

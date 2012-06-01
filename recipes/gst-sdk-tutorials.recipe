@@ -6,6 +6,7 @@ import os
 class Recipe(recipe.Recipe):
     name = 'gst-sdk-tutorials'
     version = '0.0.1'
+    commit = 'sdk-release-sdk-2012.5'
     licenses = [License.LGPL]
 
     files_tutorials = ['share/gst-sdk/tutorials']

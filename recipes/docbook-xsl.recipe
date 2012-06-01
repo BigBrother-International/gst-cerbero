@@ -3,6 +3,7 @@
 class Recipe(recipe.Recipe):
     name = 'docbook-xsl'
     version = '1.76.1'
+    commit = 'sdk-release-sdk-2012.5'
     licenses = [License.BSD_like]
     btype = BuildType.CUSTOM
 

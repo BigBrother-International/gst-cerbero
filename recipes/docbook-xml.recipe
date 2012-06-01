@@ -3,6 +3,7 @@
 class Recipe(recipe.Recipe):
     name = 'docbook-xml'
     version = '4.3'
+    commit = 'sdk-release-sdk-2012.5'
     # FIXME - no license defined
     licenses = []
     btype = BuildType.CUSTOM

@@ -3,6 +3,7 @@
 class Recipe(recipe.Recipe):
     name = 'dbus'
     version = '1.4.16'
+    commit = 'sdk-release-sdk-2012.5'
     # either AFLv2.1 or or GPLv2+
     licenses = [License.AFLv2_1]
     deps = ['expat']

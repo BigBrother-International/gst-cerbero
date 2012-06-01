@@ -3,6 +3,7 @@
 class Recipe(recipe.Recipe):
     name = 'libmms'
     version = '0.6.2'
+    commit = 'sdk-release-sdk-2012.5'
     licenses = [License.LGPLv2_1Plus]
     deps = [ 'glib' ]
 

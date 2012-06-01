@@ -4,6 +4,7 @@
 class Recipe(recipe.Recipe):
     name = 'gstreamer'
     version = '0.10.36'
+    commit = 'sdk-release-sdk-2012.5'
     licenses = [License.LGPLv2_1Plus]
     config_sh = 'sh ./autogen.sh --noconfigure && ./configure'
     configure_options = "--disable-instrospection --disable-examples --with-package-origin='http://www.gstreamer.com' --with-package-name='GStreamer (GStreamer SDK) '"

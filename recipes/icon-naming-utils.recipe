@@ -3,5 +3,6 @@
 class Recipe(recipe.Recipe):
     name = 'icon-naming-utils'
     version = '0.8.7'
+    commit = 'sdk-release-sdk-2012.5'
     licenses = [License.GPLv2]
     deps = ['XML-Simple']
